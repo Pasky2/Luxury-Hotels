@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/imgaes/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header .nav-section {
+
+    padding: 0 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.nav-links {
+    justify-content: end;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 3px solid transparent;
+    transition: 0.2s;
+    padding: 5px 0;
+    margin: 0 10px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom: 1px solid #fff;
+}
+
+.logo {
+    margin-right: 12em;
+}
+
+.section-one {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+header .section-one {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: transparent;
+}
+
+header h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+    background: transparent;
+}
+
+#hotel {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.btn {
+    padding: 5px 5px;
+    width: 100px;
+    background: #e0b973;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background: red;
+    cursor: pointer;
+}
+
+#book {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+header a {
+    color: #fff;
+}
+
+.scroll {
+   text-align: center;
+   margin-top: 90px;
+   padding: 10px;
+}
+
+.scroll h6{
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.scroll img {
+    margin-top: 3px;
+}
+
+/*************** Main Body ***********/
+section {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+section p{
+    font-size: 1.2rem;
+}
+
+.main {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aside1 {
+    width: 400px;
+    text-align: start;
+    border-left: 1px solid #000000;
+    padding-left: 30px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.aside1 h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+ 
+.aside1 p{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.explore {
+    width: 100px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    background: #e0b973;
+    border-radius: 5px;
+    border: none;
+}
+
+.explore:hover {
+    background: red;
+}
+
+.explore a {
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+#testimony {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#baxter {
+    font-size: .9rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+#next {
+    margin-left: 10px;
+}
+
+/******************** FOOTER SECTION *************/
+
+footer {
+    background: #14274a;
+    text-align: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 50px;
+    color: #ffffff;
+}
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 70px solid #14274a;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    margin: auto;
+    margin-bottom: -30px;
+}
+
+#luxury {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+#hotels {
+    font-size: .4rem;
+    margin-left: 15px;
+}
+
+address {
+    font-size: 0.5rem;
+    margin-top: 20px;
+}
+
+footer .links ul li a{
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+
+footer .links ul li a:hover {
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+footer .links ul li {
+    margin-bottom: 10px;
+}
+
+footer .socials ul li a{
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+
+footer .socials ul li a:hover {
+    cursor: pointer;
+}
+
+footer .socials ul li {
+    margin-bottom: 10px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+footer .contact p {
+    font-size: 0.7rem;
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+footer form input[type=email] {
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid #e0b973;
+
+}
+
+footer form input[type=email]:focus{
+    border: 1px solid #e0b973;
+}
+
+footer form input[type=submit] {
+    padding: 5px 10px;
+    margin-left: -6px; 
+    background: #e0b973;
+    border: 1px solid transparent;
+}
+
+/******************* Facilities  Page *************/
+
+.tag {
+    font-size: .9rem;
+    border: none;
+    margin: auto;
+    width:max-content;
+    padding: 10px 50px;
+    background: #ffffff;
+    position: relative;
+    top: -30px;
+}
+
+.facilities p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/************************ ROOMS PAGE ***************/
+.desc {
+    background: #14274a;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    position: relative;
+    top: -10px;
+}
+
+.main-wrapper {
+    border-left: 2px solid #14274a;
+    border-bottom: 2px solid #14274a;
+    border-right: 2px solid #14274a;
+    border-radius: 0 0 10px 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-wrapper .wrap a i{
+    color: #ffffff;
+    background: #e0b973;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 2px;
+}
+
+.main-wrapper .wrap a span {
+    color: #000000;
+    font-size: .7rem;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.main-wrapper .wrap p {
+    background: #e0b973;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 10px 30px;
+}

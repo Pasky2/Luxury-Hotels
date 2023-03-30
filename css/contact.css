@@ -1,0 +1,90 @@
+
+
+.contact-header {
+    background: #14274a;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+#contact {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-us {
+    text-align: left; 
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.support {
+    text-align: start;
+    margin-left: 200px;
+}
+
+.support h1{
+    margin-bottom: 10px;
+}
+
+.support p {
+    font-size: 1rem;
+}
+
+.contact-address p:first-of-type{
+    margin-bottom: 20px;
+}
+
+.contact-address p:nth-of-type(2){
+    margin-top: 20px;
+}
+
+.contact-address a{
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.contact-address span {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.contact-form form label {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.contact-form form input {
+    width: 100%;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #14274a;
+}
+
+.contact-form form textarea{
+    border: 1px solid #14274a;
+}
+.contact-form form input[type=submit] {
+    width: auto;
+    margin-left: 75%;  
+    margin-top: 20px;
+    border: none;
+    background: #e0b973;
+    color: #ffffff; 
+}
+
+.contact-form form input[type=submit]:hover {
+    cursor: pointer;
+    background: red;
+}
+
